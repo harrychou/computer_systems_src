@@ -1,0 +1,46 @@
+CS61, taught by Eddie Kholer
+
+Part 1
+
+What this course is about:
+
+- data representation
+- abstract & real machines
+  (focused on real machine, how to program both)
+- programming a real machine
+- focus on robustness 
+  * defensive programming
+- and efficiency
+  * speed
+  * few resource (leaness)
+
+Memory, Processor 
+Manager access of memory: 
+- access fewer memory
+- access memory in a smarter way
+
+C, Linux commands, Git
+
+take look at a ML implmentation of quick sort
+- efficient, but create a lot of arrays
+
+  let rec qs = function
+       | []    -> []
+       | x::xs ->
+             let left  = List.filter (fun y -> y < x)  xs
+             and right = List.filter (fun y -> y >= x) xs
+             in  (qs left) @ [x] @ (qs right);;
+
+take look at two C quicksort functions
+- const int* --> array cannot be modified
+- return int* , means it probably won't modify the state (array)
+- if return void, probably means it will modify the state (something)
+
+  void qs(int* array, int n);
+  int* qs(const int* array, int n);
+
+const array (const int*) and regular array (int*)
+
+fg: foreground, put something back to foreground
+
+analyzing the quicksort program 29:30
