@@ -43,4 +43,5 @@ const array (const int*) and regular array (int*)
 
 fg: foreground, put something back to foreground
 
-analyzing the quicksort program 29:30
+analyzing the quicksort program 29:
+http://cm.dce.harvard.edu/2015/01/13836/L01/index_H264SingleHighBandwidth-16x9.shtml
