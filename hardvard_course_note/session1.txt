@@ -43,5 +43,20 @@ const array (const int*) and regular array (int*)
 
 fg: foreground, put something back to foreground
 
-analyzing the quicksort program 29:
-http://cm.dce.harvard.edu/2015/01/13836/L01/index_H264SingleHighBandwidth-16x9.shtml
+analyzing the quicksort program 
+
+use gdb to debug the qs program
+- lack of base case
+- handle extreme values
+
+gdb commands
+- r (run)
+- p n (print value of n)
+- bt (back trace)
+- f 20 (foward to 3000)
+
+test the qs function more and run into problem at the array size of 40000
+
+tail recursion
+
+the impact of recursion calls order in stack size

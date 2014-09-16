@@ -1,0 +1,8 @@
+evil
+showaddresses
+testqs
+testqs[0-9]
+testsum
+testsum-file
+testsum-web
+testsum-webtmp-*

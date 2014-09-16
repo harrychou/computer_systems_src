@@ -1,0 +1,10 @@
+evil
+mexplore
+mexplore.noopt
+mexplore.optimized
+testqs
+testqs[0-9]
+testsum
+testsum-file
+testsum-web
+testsum-webtmp-*

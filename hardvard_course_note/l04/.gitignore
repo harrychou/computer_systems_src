@@ -1,0 +1,13 @@
+*.noopt
+*.optimized
+*.unsafe
+evil
+heapsmash
+heapsmashf
+mexplore
+stacksmash
+stacksmashf
+testsum
+testsum-file
+testsum-web
+testsum-webtmp-*
